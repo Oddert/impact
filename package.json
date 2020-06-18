@@ -1,13 +1,29 @@
 {
-  "name": "your-project",
-  "description": "A WPGulp based project.",
+  "name": "impact",
+  "description": "A bold WP theme.",
   "version": "1.0.0",
-  "author": "Author Name (https://twitter.com/MrAhmadAwais/)",
+  "author": "Robyn Felicity Heather Veitch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadawais/WPGulp"
+    "url": "git+https://github.com/Oddert/impact.git"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/Oddert/impact#readme",
+  "issues": {
+    "url": "https://github.com/Oddert/impact/issues"
+  },
+  "bugs": {
+    "url": "https://github.com/Oddert/impact/issues"
+  },
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+  ],
+  "keywords": [
+    "Worpress",
+    "Theme",
+    "Blog",
+    "Directory site"
+  ],
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",

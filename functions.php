@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package test
+ * @package Impact
  */
 
 if ( ! defined( '_S_VERSION' ) ) {
