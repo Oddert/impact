@@ -1,0 +1,17 @@
+{
+  "name": "impact",
+  "version": "1.0.0",
+  "description": "bold wordpress theme by oddert",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "wordpress-theme",
+    "blog",
+    "directory-site"
+  ],
+  "author": "Robyn Felicity Heather Veitch",
+  "license": "GPL-2.0-or-later"
+}
