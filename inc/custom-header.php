@@ -8,39 +8,39 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package test
+ * @package Impact
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses test_header_style()
+ * @uses impact_header_style()
  */
-function test_custom_header_setup() {
+function impact_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
-			'test_custom_header_args',
+			'impact_custom_header_args',
 			array(
 				'default-image'      => '',
 				'default-text-color' => '000000',
 				'width'              => 1000,
 				'height'             => 250,
 				'flex-height'        => true,
-				'wp-head-callback'   => 'test_header_style',
+				'wp-head-callback'   => 'impact_header_style',
 			)
 		)
 	);
 }
-add_action( 'after_setup_theme', 'test_custom_header_setup' );
+add_action( 'after_setup_theme', 'impact_custom_header_setup' );
 
-if ( ! function_exists( 'test_header_style' ) ) :
+if ( ! function_exists( 'impact_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see test_custom_header_setup().
+	 * @see impact_custom_header_setup().
 	 */
-	function test_header_style() {
+	function impact_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*
