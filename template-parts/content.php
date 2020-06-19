@@ -10,6 +10,8 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div data-oddert='template-parts_content.php'></div>
+			
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :

@@ -17,6 +17,8 @@ get_header();
 				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'Impact' ); ?></h1>
 			</header><!-- .page-header -->
 
+			<div data-oddert='404.php'></div>
+
 			<div class="page-content">
 				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'Impact' ); ?></p>
 

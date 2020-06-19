@@ -10,6 +10,7 @@
 ?>
 
 <section class="no-results not-found">
+	<div data-oddert='template-parts_content-none.php'></div>
 	<header class="page-header">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'Impact' ); ?></h1>
 	</header><!-- .page-header -->
