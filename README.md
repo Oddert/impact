@@ -1,4 +1,5 @@
-=== Impact ===
+Impact 
+===
 Contributors: Robyn F H Veitch
 Requires at least: 4.5
 Tested up to: 5.4
@@ -7,26 +8,35 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
+Description
+==
 
 Strong impactful wordpress theme aimed at users wishing to create layouts which grab the user's attention.
 
-== Installation ==
+Installation
+==
 
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Frequently Asked Questions ==
+Development Environment
+==
+This repository uses SASS and hot reloading facilitated by gulp
+```
+# navigate to the /wp-content/themes directory
+$ git clone https://github.com/Oddert/RobynVeitch2020.git
+$ cd RobynVeitch2020
+$ npm i
+$ npm run start
+```
 
-= Does this theme support any plugins? =
+Frequently Asked Questions
+==
+
+### Does this theme support any plugins?
 
 Impact includes support for WooCommerce and for Infinite Scroll in Jetpack.
-
-== Changelog ==
-
-= 1.0 - 18 Jun 2020 =
-* Initial release
 
 == Credits ==
 
